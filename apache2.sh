@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# Script de gerenciamento do crouton
-# Apache2
+# Crouton Service Management Script
+#
+# Manages: Apache2
+#
+# Since I want to make things easier, I planned this scripts to avoid messing with systemd's configuration.
+# These scripts were made to simplify the process when dealing with restarting services inside Crouton
+#
 
 if ! [ $(id -u) = 0 ]; then
   echo "Must run as root"

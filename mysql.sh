@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Script de gerenciamento do crouton
-# MySQL
+# Crouton Service Management Script
+# Manages MySQL
 
 if ! [ $(id -u) = 0 ]; then
   echo "Must run as root"
